@@ -8,132 +8,135 @@
     <title>Code Magazine</title>
   </head>
   <body>
-    <header class="main-header">
-      <h1># The Code Magazine</h1>
-      <nav>
-        <a href="blog.html">Blog</a>
-        <a href="#">Challenges</a>
-        <a href="#">Flexbox</a>
-        <a href="#">CSS Grid</a>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="main-header">
+        <h1># The Code Magazine</h1>
+        <nav>
+          <a href="blog.html">Blog</a>
+          <a href="#">Challenges</a>
+          <a href="#">Flexbox</a>
+          <a href="#">CSS Grid</a>
+        </nav>
+      </header>
 
-    <article>
-      <header>
-        <h2># The Basic Language of the web : HTML</h2>
-        <img
-          src="img/user-image.jpg"
-          alt="posted persson"
-          width="50"
-          height="50"
-        />
-        <p id="author">
-          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2022
+      <article>
+        <header class="post-header">
+          <h2># The Basic Language of the web : HTML</h2>
+          <img
+            src="img/user-image.jpg"
+            alt="posted persson"
+            width="50"
+            height="50"
+          />
+          <p id="author">
+            Posted by <strong>Laura Jones</strong> on Monday, June 21st 2022
+          </p>
+
+          <img
+            src="img/post-image.jpg"
+            alt="code on a screen"
+            width="500"
+            height="200"
+            class="post-image"
+          />
+        </header>
+        <p>
+          The standard chunk of <em>Lorem Ipsum</em> used since the 1500s is
+          reproduced below for those interested. Sections 1.10.32 and 1.10.33
+          from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+          their exact original form, accompanied by English versions from the
+          1914 translation by H. Rackham.
         </p>
 
-        <img
-          src="img/post-image.jpg"
-          alt="code on a screen"
-          width="500"
-          height="200"
-        />
-      </header>
-      <p>
-        The standard chunk of <em>Lorem Ipsum</em> used since the 1500s is
-        reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
-        "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
-        exact original form, accompanied by English versions from the 1914
-        translation by H. Rackham.
-      </p>
+        <p>
+          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+          consectetur, adipisci velit...
+        </p>
 
-      <p>
-        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit...
-      </p>
+        <h3># What is HTML?</h3>
+        <p>
+          <strong>H</strong>ypertext <strong>M</strong>arkup
+          <strong>L</strong>anguage, a standardized system for tagging text
+          files to achieve font, colour, graphic, and hyperlink effects on World
+          Wide Web pages.
+        </p>
 
-      <h3># What is HTML?</h3>
-      <p>
-        <strong>H</strong>ypertext <strong>M</strong>arkup
-        <strong>L</strong>anguage, a standardized system for tagging text files
-        to achieve font, colour, graphic, and hyperlink effects on World Wide
-        Web pages.
-      </p>
+        <p>In HTML, each element is made up of 3 parts:</p>
+        <ol>
+          <li>The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+        </ol>
+        <p>
+          You can learn more at
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            >MDN Web Docs.</a
+          >
+        </p>
+        <p>
+          Is HTML is coding? HTML is not a programming language. It's a markup
+          language. In fact, that is the technology's name: HyperText Markup
+          Language
+        </p>
 
-      <p>In HTML, each element is made up of 3 parts:</p>
-      <ol>
-        <li>The opening tag</li>
-        <li>The closing tag</li>
-        <li>The actual element</li>
-      </ol>
-      <p>
-        You can learn more at
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-          target="_blank"
-          >MDN Web Docs.</a
-        >
-      </p>
-      <p>
-        Is HTML is coding? HTML is not a programming language. It's a markup
-        language. In fact, that is the technology's name: HyperText Markup
-        Language
-      </p>
+        <h3>Why should you learn HTML?</h3>
+        <p>
+          As you'll see, there are many benefits to learning HTML, and they
+          extend far beyond becoming a web developer. Still, web developers are
+          in high demand, and HTML is a great skill to have in your tool belt if
+          you decide to look for a new job in the future.
+        </p>
 
-      <h3>Why should you learn HTML?</h3>
-      <p>
-        As you'll see, there are many benefits to learning HTML, and they extend
-        far beyond becoming a web developer. Still, web developers are in high
-        demand, and HTML is a great skill to have in your tool belt if you
-        decide to look for a new job in the future.
-      </p>
+        <ul>
+          <li>Applications across industries</li>
+          <li>Stand out from the crowd</li>
+          <li>Easy to learn</li>
+          <li>Learn other coding languages faster</li>
+          <li>Build your confidence and craft a new career</li>
+        </ul>
+      </article>
+      <aside>
+        <h4>Related posts</h4>
+        <ul class="related">
+          <li>
+            <img
+              src="img/picture-01.jpg"
+              alt="image one"
+              width="75"
+              height="75"
+            />
+            <a href="#">How to Learn web Development</a>
+            <p class="related-author">By web devloper</p>
+          </li>
 
-      <ul>
-        <li>Applications across industries</li>
-        <li>Stand out from the crowd</li>
-        <li>Easy to learn</li>
-        <li>Learn other coding languages faster</li>
-        <li>Build your confidence and craft a new career</li>
-      </ul>
-    </article>
-    <aside>
-      <h4>Related posts</h4>
-      <ul class="related">
-        <li>
-          <img
-            src="img/picture-01.jpg"
-            alt="image one"
-            width="75"
-            height="75"
-          />
-          <a href="#">How to Learn web Development</a>
-          <p class="related-author">By web devloper</p>
-        </li>
+          <li>
+            <img
+              src="img/picture-02.jpg"
+              alt="image two"
+              width="75"
+              height="75"
+            />
+            <a href="#">The Unknown Power of CSS</a>
+            <p class="related-author">By Spiderman</p>
+          </li>
 
-        <li>
-          <img
-            src="img/picture-02.jpg"
-            alt="image two"
-            width="75"
-            height="75"
-          />
-          <a href="#">The Unknown Power of CSS</a>
-          <p class="related-author">By Spiderman</p>
-        </li>
-
-        <li>
-          <img
-            src="img/picture-03.jpg"
-            alt="image three"
-            width="75"
-            height="75"
-          />
-          <a href="#">Why JavaScript is Awesome</a>
-          <p class="related-author">By Iron Man</p>
-        </li>
-      </ul>
-    </aside>
-    <footer>
-      <p id="copyright">Copyright &copy; 2022 by The Code Magazine</p>
-    </footer>
+          <li>
+            <img
+              src="img/picture-03.jpg"
+              alt="image three"
+              width="75"
+              height="75"
+            />
+            <a href="#">Why JavaScript is Awesome</a>
+            <p class="related-author">By Iron Man</p>
+          </li>
+        </ul>
+      </aside>
+      <footer>
+        <p id="copyright">Copyright &copy; 2022 by The Code Magazine</p>
+      </footer>
+    </div>
   </body>
 </html>
